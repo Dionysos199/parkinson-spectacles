@@ -1,87 +1,65 @@
-# FastEval Parkinsonism
-FastEval Parkinsonism
-(https://fastevalp.cmdm.tw/) is a deep learning-driven video-based system, providing
-users to capture keypoints, estimate the severity, and summarize in a report.
-![cover_image](./imgs/cover.png)
+# parkinson-spectacles
 
-## Cite this work
+A real-time Parkinson's motor symptom assessment system for **Snap Spectacles**, combining on-device hand tracking with a deep learning backend.
+
+## Overview
+
+The user holds a finger-tapping gesture on Spectacles. A countdown timer triggers a 20-second hand joint recording session. The recording is sent to a Flask API which runs the FastEval Parkinsonism pipeline and returns a UPDRS severity score in real time.
+
 ```
-@article{yang2024fasteval,
-  title={FastEval Parkinsonism: an instant deep learning--assisted video-based online system for Parkinsonian motor symptom evaluation},
-  author={Yang, Yu-Yuan and Ho, Ming-Yang and Tai, Chung-Hwei and Wu, Ruey-Meei and Kuo, Ming-Che and Tseng, Yufeng Jane},
-  journal={NPJ Digital Medicine},
-  volume={7},
-  number={1},
-  pages={1--13},
-  year={2024},
-  publisher={Nature Publishing Group}
-}
+Spectacles (Lens Studio)          Flask API (Python)
+─────────────────────────         ──────────────────────────────
+Hand gesture detected         →   POST /analyze_keypoints
+Timer countdown (2s hold)         Preprocessing + normalization
+20s joint recording               UPDRS model inference
+HTTP POST → 63 coords/frame   →   STFT kinematic analysis
+← Results_Ready trigger       ←   { updrs_score, severity, ... }
 ```
 
-## Local installation for the web with all functions
-### Fast Installation at local by docker-compose
+## Repository Structure
+
+```
+parkinson-spectacles/
+├── api.py                        # Flask REST API
+├── spectacles/                   # Lens Studio project
+│   ├── Assets/
+│   │   ├── HandJointDataCollector.js
+│   │   ├── Timer.js
+│   │   └── ...
+│   └── hand tracking.esproj
+├── src/lib/hand_predictor/       # ML pipeline (FastEval)
+├── environment.yml               # Conda environment
+└── docker-compose.yml
+```
+
+## Quick Start
+
+### 1. Python backend
+
 ```bash
-git clone <github-link>
-# e.g. git clone git@github.com:CMDM-Lab/fasteval_parkinsonism.git
-docker-compose up --build # for building
+conda env create -f environment.yml
+conda activate fp39
+python api.py
+# API runs at http://localhost:5000
 ```
 
-### Start
-```bash
-docker-compose up # start server or reactivate server
-```
+### 2. Spectacles frontend
 
-### Show
-Open your browser and use the `https://localhost:13006`.   
-Use this link `http://localhost:13006/letter_opener` as your local email box so that you can receive the confirmation letter when creating an account.  
+Open `spectacles/hand tracking.esproj` in Lens Studio.  
+Wire up `HandJointDataCollector` and `Timer` scripts in the scene inspector.  
+Push the lens to your Spectacles device.
 
-### Stop
-```bash
-docker-compose down # stop server
-# or use `ctrl+C`
-```
+## API Endpoints
 
-### look at the linux environment
-```bash
-docker compose run web /bin/bash
-```
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/health` | Health check |
+| POST | `/analyze_keypoints` | Accept pre-extracted hand joint JSON, return UPDRS score |
+| POST | `/analyze` | Accept raw video, run full pipeline |
 
-## Hand Predictor API
-Read the document for indenpendently usage ([Hand Predictor API](./src/lib/hand_predictor)).
+## Credits
 
-### Quick start with Hand Predictor API merely
-Requirement: conda.  
-```bash
-# clone the repository from github
-git clone git@github.com:yuyuan871111/fast_eval_Parkinsonism.git    # by ssh
-git clone https://github.com/yuyuan871111/fast_eval_Parkinsonism.git    # by html
+Deep learning pipeline based on:
+> Yang et al., *FastEval Parkinsonism: an instant deep learning-assisted video-based online system for Parkinsonian motor symptom evaluation*, NPJ Digital Medicine, 2024.
 
-# install and activate environment via conda
-conda env create -f environment.yml # only do this for the first time
-conda activate mediapipe
-
-# change the working directory
-cd ./src/lib/hand_predictor  # the path of the main script is as same as hand_predictor's README file
-
-# find help messange
-python hand_predictor.py -h
-
-# get the testing file
-wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1Jf9178R_U97Osu12cVudJvFQehtDI3U7' -O test.MOV
-
-# main function for hand predictor API
-python hand_predictor.py --wkdir_path . --seed 42 --filename test --ext MOV --hand_LR Left --hand_pos 1 --input_root_path . --output_root_path sample_output --mode single
-```
-
-
-### Website development  
-Read the document for indenpendently usage ([Website development](./src)).  
-
-
-### Other informations
-1. More information about alternative installation in [TroubleShooting](./TroubleShooting.md).  
-2. If you face a problem with message `A server is already running. Check /home/myuser/local/app/tmp/pids/server.pid.`, please look at the linux environment and remove the file `server.pid` (shown as the codes below).  
-```bash
-docker compose run web /bin/bash                # run the docker compose environment
-rm /home/myuser/local/app/tmp/pids/server.pid   # remove the file
-```
+Original repository: [yuyuan871111/fast_eval_Parkinsonism](https://github.com/yuyuan871111/fast_eval_Parkinsonism)
