@@ -1,0 +1,41 @@
+- !<ObjectPrefab/196c9852-4b6e-4dbf-a312-cda6c526589d>
+  PackagePath: ""
+  objects:
+    - !<own> c22e7b52-6e6b-413c-a6f7-69ce938c4f06
+  LazyLoading: false
+  RetainAssets: true
+- !<Image/533550e5-34a4-49cd-9527-24af147ac0e7>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 77284e14-9944-4e4f-9d7d-e2421bbac2c0
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/c22e7b52-6e6b-413c-a6f7-69ce938c4f06>
+  PrefabRemaps:
+    - 533550e5-34a4-49cd-9527-24af147ac0e7: 533550e5-34a4-49cd-6ad8-db50eb853f18
+    - c22e7b52-6e6b-413c-a6f7-69ce938c4f06: c22e7b52-6e6b-413c-5908-96316c73b0f9
+  Name: "Bitmoji [Try Stretching Horizontally!]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 5.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 533550e5-34a4-49cd-9527-24af147ac0e7

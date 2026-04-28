@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/8abe3c20-a135-42de-a74d-0906a0bb2ebf>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 8a38ab1c-c753-41fb-b1f0-bc8b60d3c6cb
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 8a38ab1c-c753-41fb-b1f0-bc8b60d3c6cb
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 65253845-e304-4d86-b3b0-eb0908199fb5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/65253845-e304-4d86-b3b0-eb0908199fb5>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: ce9009ff-7bf2-40c9-815e-1e9cd858e2f3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    holdDuration: false
+    timerText: false
+    triggerName: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - holdDuration: !<float> 2.000000
+      triggerName: Recording_Start
+      timerText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

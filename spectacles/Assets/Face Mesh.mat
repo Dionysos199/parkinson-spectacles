@@ -1,0 +1,79 @@
+- !<Material/82c41f8e-2111-4f99-8a4c-5c6814821467>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> ed5b1524-29b0-48a7-96c0-5fae978d170a
+- !<PassInfo/ed5b1524-29b0-48a7-96c0-5fae978d170a>
+  CachedProperties:
+    - Port_Input2_N010:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N051:
+        typeIdx: 1
+        value: 0.000000
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_FACE_TEX
+    - ENABLE_SMOOTH_EDGES
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_AO_N023:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_Emissive_N023:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_Input1_N001:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N047:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input2_N001:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input2_N047:
+      typeIdx: 1
+      value: 0.000000
+    Port_SpecularAO_N023:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    maskTex:
+      typeIdx: 9
+      value:
+        id: 00000000-0000-0000-0000-000000000000
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    metallic:
+      typeIdx: 1
+      value: 0.000000
+    radius:
+      typeIdx: 1
+      value: 1.000000
+    roughness:
+      typeIdx: 1
+      value: 0.000000
+    softness:
+      typeIdx: 1
+      value: 1.000000
+  Pass: !<reference> 35913d8c-3b7c-45d4-ad25-89be3c43bcf3

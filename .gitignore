@@ -180,3 +180,8 @@ src/bin/dev
 src/app/assets/builds/.keep
 src/app/assets/builds/application.css
 src/config/credentials.yml.enc
+
+# Lens Studio — auto-generated, do not commit
+spectacles/Cache/
+spectacles/**/*.lock
+spectacles/PluginsUserPreferences/

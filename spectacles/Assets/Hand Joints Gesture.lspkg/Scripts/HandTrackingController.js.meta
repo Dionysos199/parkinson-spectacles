@@ -1,0 +1,86 @@
+- !<AssetImportMetadata/9f270e35-2ebd-130a-d05d-a7526e329007>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 8d33be07-85e7-422c-9138-9499e9d3cf11
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 8d33be07-85e7-422c-9138-9499e9d3cf11
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 4Y0hmrG4ms9eyGqQoMrzVw
+  AssetDataMap:
+    JavaScriptAsset: !<own> 8f00bdcd-03f2-41ac-9e07-f5dbfb8b1315
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/8f00bdcd-03f2-41ac-9e07-f5dbfb8b1315>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 3a212705-0bc7-41a5-8943-79b7806656e0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    Center: false
+    Index0: false
+    Index1: false
+    Index2: false
+    Index3: false
+    Middle0: false
+    Middle1: false
+    Middle2: false
+    Middle3: false
+    Pinky0: false
+    Pinky1: false
+    Pinky2: false
+    Pinky3: false
+    Ring0: false
+    Ring1: false
+    Ring2: false
+    Ring3: false
+    Thumb0: false
+    Thumb1: false
+    Thumb2: false
+    Thumb3: false
+    Wrist: false
+    advanced: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - advanced: false
+      Center: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Wrist: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Index0: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Index1: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Index2: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Index3: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Middle0: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Middle1: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Middle2: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Middle3: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Ring0: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Ring1: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Ring2: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Ring3: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Pinky0: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Pinky1: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Pinky2: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Pinky3: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Thumb0: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Thumb1: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Thumb2: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      Thumb3: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

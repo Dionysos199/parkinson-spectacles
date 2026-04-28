@@ -1,0 +1,13 @@
+data:
+  categories:
+    - None
+    - Lens
+    - Plugin
+    - Spectacles
+    - Deprecated
+  severities:
+    - Info
+  fontSizeIncrease: Small
+  showTimestamps: true
+  showGroupMessages: true
+  showTags: true

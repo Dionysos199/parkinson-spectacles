@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/1c1e6d54-3d39-4056-bae5-8a3b6861a908>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 20
+    patch: 0
+    build: 26040820
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: Track 2D joints on the users hand. Trigger events based on the position of each joints of the fingers
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 96
+  ExportUid: 8dfa5433-29b1-49b1-808b-bfb453dc29db
+  ComponentUid: 6aa008f0-5814-4639-b68d-b8900ca49852
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

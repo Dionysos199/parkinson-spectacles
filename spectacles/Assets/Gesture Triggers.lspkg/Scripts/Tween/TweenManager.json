@@ -1,0 +1,17 @@
+{
+    "assetId": "",
+    "description": "Calls TweenJS' update and adds some global helper functions.\n\n// ----- USAGE -----\n// To start a tween by name on a given object. Optional callback script\n//  global.tweenManager.startTween( tweenObject, tweenName, callback )\n//\n// To stop a tween by name on a given object\n//  global.tweenManager.stopTween( tweenObject, tweenName )\n//\n// To reset object, call before starting the tween again\n//  global.tweenManager.resetObject( tweenObject, tweenName )\n//\n// To pause a tween on a given object\n//  global.tweenManager.pauseTween( tweenObject, tweenName )\n//\n// To resume a paused tween on a given object\n//  global.tweenManager.resumeTween( tweenObject, tweenName )\n//\n// Get the value of a Tween Value\n// global.tweenManager.getGenericTweenValue( tweenObject, tweenName )\n//\n// To reset tween on a given object\n//  global.tweenManager.resetTween( tweenObject, tweenName )\n//\n// To reset all registered tweens\n//  global.tweenManager.resetTweens()\n//\n// To start all registered tweens which has PlayAutomatically set to true\n//  global.tweenManager.restartAutoTweens()\n// -----------------",
+    "filePaths": [
+        "package.native",
+        "TweenManager.js"
+    ],
+    "hash": "9dd0e47f8c9a8796bb9a8f20be05432c",
+    "lastModified": 1777030568522,
+    "name": "TweenManager",
+    "tags": [],
+    "uid": "be47575e-c717-4dcb-8a3b-39ca212b1d23",
+    "uidExported": "dca844e2-a0bb-4939-adb2-9fd02c781259",
+    "versionMajor": 1,
+    "versionMinor": 1,
+    "versionPatch": 0
+}

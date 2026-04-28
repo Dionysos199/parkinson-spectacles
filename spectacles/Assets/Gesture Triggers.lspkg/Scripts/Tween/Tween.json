@@ -1,0 +1,17 @@
+{
+    "assetId": "",
+    "description": "Tween.js - Licensed under the MIT license\nhttps://github.com/tweenjs/tween.js\n----------------------------------------------\n\nSee https://github.com/tweenjs/tween.js/graphs/contributors for the full list of contributors.\nThank you all, you're awesome!\n",
+    "filePaths": [
+        "package.native",
+        "Tween.js"
+    ],
+    "hash": "210fbd236e7b423c5b4f80e0d9c45719",
+    "lastModified": 1777030568525,
+    "name": "Tween",
+    "tags": [],
+    "uid": "a084b3f0-578e-4c53-950a-81b16ca9da9f",
+    "uidExported": "db29ac0c-0a00-444c-99d7-1474b64cb2d7",
+    "versionMajor": 1,
+    "versionMinor": 0,
+    "versionPatch": 0
+}

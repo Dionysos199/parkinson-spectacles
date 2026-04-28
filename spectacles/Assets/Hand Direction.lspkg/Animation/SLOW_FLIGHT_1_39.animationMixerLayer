@@ -1,0 +1,17 @@
+- !<AnimationMixerLayer/7652cb11-11ec-49c4-b143-588b027f2d8b>
+  PackagePath: ""
+  Layer: SLOW_FLIGHT_1_39
+  Name: SLOW_FLIGHT_1_39
+  Weight: 0.000000
+  SpeedRatio: 1.000000
+  From: 0.000000
+  To: 1.300000
+  Offset: 0.000000
+  FPS: 30.000000
+  NumCycles: -1
+  Reversed: false
+  Disabled: false
+  PostInfinity: Cycle
+  BlendMode: Default
+  ScaleMode: Multiply
+  RangeType: TimeInSeconds

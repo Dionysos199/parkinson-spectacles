@@ -1,0 +1,17 @@
+{
+    "assetId": "",
+    "description": "The Behavior helper script allows you to create simple interactions without writing any custom script. With Behavior, interactions are completely configured in the Inspector panel. It allows you to configure the trigger type which defines when something should happen. Next, it allows you to configure what should happen as a response to a trigger. The selectable responses include a number of commonly used interactions like playing an animation, playing a sound, enabling an object and more.",
+    "filePaths": [
+        "Behavior.js",
+        "package.native"
+    ],
+    "hash": "b56b7982a81e6578767ecf7013b01455",
+    "lastModified": 1777205066168,
+    "name": "Behavior",
+    "tags": [],
+    "uid": "cadba2a7-db5d-4714-886f-e16b9441133d",
+    "uidExported": "b4b8598f-ed17-4246-bde2-1e7c497ae299",
+    "versionMajor": 1,
+    "versionMinor": 2,
+    "versionPatch": 0
+}

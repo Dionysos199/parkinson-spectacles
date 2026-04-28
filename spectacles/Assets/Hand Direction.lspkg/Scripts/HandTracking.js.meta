@@ -1,0 +1,60 @@
+- !<AssetImportMetadata/05725eed-47de-1b64-6c1a-cc11b982234e>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> bb0cf496-78ec-44f8-b1ec-d6119efb15ac
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> bb0cf496-78ec-44f8-b1ec-d6119efb15ac
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> d653181d-26d7-4cd8-adcf-7a174c8e2305
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/d653181d-26d7-4cd8-adcf-7a174c8e2305>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 85ef863d-0c8c-4027-860c-a537fdd4f52d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    enableLeftHandCollider: false
+    enableLeftHandOccluder: false
+    enableRightHandCollider: false
+    enableRightHandOccluder: false
+    handTrackingLeft: false
+    handTrackingRight: false
+    leftHandCollider: false
+    leftHandMesh: false
+    rightHandCollider: false
+    rightHandMesh: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - handTrackingLeft: !<reference.ObjectTracking3D> 00000000-0000-0000-0000-000000000000
+      enableLeftHandOccluder: false
+      leftHandMesh: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      enableLeftHandCollider: false
+      leftHandCollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
+      handTrackingRight: !<reference.ObjectTracking3D> 00000000-0000-0000-0000-000000000000
+      enableRightHandOccluder: false
+      rightHandMesh: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      enableRightHandCollider: false
+      rightHandCollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

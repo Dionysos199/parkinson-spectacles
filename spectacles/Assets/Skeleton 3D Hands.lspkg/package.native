@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/604918f6-04ac-47ef-ada6-df5154314d98>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 20
+    patch: 0
+    build: 26040820
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: "A Simple Skeleton 3D Hand with helper scripts duplicating and placing joints and bones to track user's hands in 3D space. Learn more in the 3D Hand Tracking guide"
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 96
+  ExportUid: 4989e2d4-931f-4a09-93e2-b0aaf476e6e1
+  ComponentUid: 0a538eed-6cc2-4a06-ac26-a69db20d0f39
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

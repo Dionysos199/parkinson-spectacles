@@ -1,0 +1,60 @@
+- !<AssetImportMetadata/64ced5a8-3a05-7b92-45b6-1169191ff24f>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> d317341b-1b56-466c-9540-6d344814ec26
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> d317341b-1b56-466c-9540-6d344814ec26
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 3ffa092a-9bae-49f1-a741-403e1c0687ce
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/3ffa092a-9bae-49f1-a741-403e1c0687ce>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 629820f9-0fbd-4bd3-9925-70f8c25450a7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    callApiFunc: false
+    detectionPrecision: false
+    lostPrecision: false
+    onDirectionDetectedFunction: false
+    onDirectionDetectedTrigger: false
+    onDirectionLostFunction: false
+    onDirectionLostTrigger: false
+    palmDirection: false
+    scriptWithApi: false
+    useBehavior: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - palmDirection: 0
+      detectionPrecision: 0.600000
+      lostPrecision: 0.300000
+      useBehavior: false
+      onDirectionDetectedTrigger: ON_DIRECTION_DETECTED
+      onDirectionLostTrigger: ON_DIRECTION_LOST
+      callApiFunc: false
+      scriptWithApi: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      onDirectionDetectedFunction: onDirectionDetected
+      onDirectionLostFunction: onDirectionLost
+  ScriptTypes:
+    -
+      {}

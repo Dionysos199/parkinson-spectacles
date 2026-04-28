@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/6d8ecb22-f5ef-deea-1d9f-da407f811683>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 85a15864-1689-4b01-96b0-74f33fc15754
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 85a15864-1689-4b01-96b0-74f33fc15754
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 01GC9ovAJp7sEnaeGsemTS
+  AssetDataMap:
+    JavaScriptAsset: !<own> ecea58a9-cc3d-45ae-b5de-d80062aa2b36
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/ecea58a9-cc3d-45ae-b5de-d80062aa2b36>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 3072aca7-1d15-4e0d-ae93-44a763ae0e50
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    distanceLogger: false
+    leftHandTrackingScript: false
+    rightHandTrackingScript: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - leftHandTrackingScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      rightHandTrackingScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      distanceLogger: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

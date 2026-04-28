@@ -1,0 +1,55 @@
+- !<AssetImportMetadata/c9806a09-b6f8-b6c5-cda2-481604dbad67>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 196c9852-4b6e-4dbf-a312-cda6c526589d
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 196c9852-4b6e-4dbf-a312-cda6c526589d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 6ylNcYjZEZx74f5Q1iT1JO
+  AssetDataMap:
+    ObjectPrefab: !<own> 446685e0-9662-42d5-9565-32366893ba9f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/446685e0-9662-42d5-9565-32366893ba9f>
+  Prototype: !<ObjectOwner/16cacff2-84cc-4efb-b9d5-4d23c284924e>
+    PackagePath: ""
+    objects:
+      - !<own> c22e7b52-6e6b-413c-5908-96316c73b0f9
+- !<Image/533550e5-34a4-49cd-6ad8-db50eb853f18>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 77284e14-9944-4e4f-9d7d-e2421bbac2c0
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/c22e7b52-6e6b-413c-5908-96316c73b0f9>
+  PrefabRemaps:
+    []
+  Name: "Bitmoji [Try Stretching Horizontally!]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 5.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 533550e5-34a4-49cd-6ad8-db50eb853f18

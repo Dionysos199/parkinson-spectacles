@@ -1,0 +1,376 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 370
+    values:
+      - ""
+      - Base.png
+      - Behavior.js
+      - Behavior.json
+      - Behavior.lsc
+      - Behavior.svg
+      - Bitmoji Crowds.json
+      - Bitmoji Crowds.lspkg
+      - Bitmoji Crowds.lspkg/Bitmoji Crowds.mat
+      - "Bitmoji Crowds.lspkg/Bitmoji Crowds[Try Stretching Horizontally!].prefab"
+      - Bitmoji Crowds.lspkg/Sprite Sheet Renderer.ss_graph
+      - Bitmoji Crowds.lspkg/Sprite Sheet.png
+      - Bitmoji Crowds.lspkg/package.native
+      - Box.mesh
+      - Default 3D Hands 2.json
+      - Default 3D Hands 2.lspkg
+      - Default 3D Hands 2.lspkg/Default 3D Hands__PUT_UNDER_MAIN_CAM.prefab
+      - Default 3D Hands 2.lspkg/HandColorController.js
+      - Default 3D Hands 2.lspkg/HandColorController.json
+      - Default 3D Hands 2.lspkg/LeftTrackingModel.handTracking3D
+      - Default 3D Hands 2.lspkg/Materials
+      - Default 3D Hands 2.lspkg/Materials/DefaultHands red.mat
+      - Default 3D Hands 2.lspkg/Materials/DefaultHands.mat
+      - Default 3D Hands 2.lspkg/Materials/DefaultHands_green.mat
+      - "Default 3D Hands 2.lspkg/Materials/MatHandGlow [TRY ME]"
+      - "Default 3D Hands 2.lspkg/Materials/MatHandGlow [TRY ME]/MatHandGlow.mat"
+      - "Default 3D Hands 2.lspkg/Materials/MatHandGlow [TRY ME]/hand_color_mask.png"
+      - "Default 3D Hands 2.lspkg/Materials/MatHandGlow [TRY ME]/hand_mask.jpg"
+      - Default 3D Hands 2.lspkg/Meshes
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesL.fbx
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesL.fbx/.hidden
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesL.fbx/.hidden/lambert1
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesL.fbx/.hidden/white
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesL.fbx/Animations
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesL.fbx/Animations/BaseLayer
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesL.fbx/Materials
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesL.fbx/Materials/lambert1
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesL.fbx/Meshes
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesL.fbx/Meshes/HandBase
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesL.fbx/Meshes/HandBaseWrist
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesL.fbx/Meshes/HandTI
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesL.fbx/handMeshExtraBonesL
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesR.fbx
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesR.fbx/.hidden
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesR.fbx/.hidden/lambert1
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesR.fbx/.hidden/white
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesR.fbx/Animations
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesR.fbx/Animations/BaseLayer
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesR.fbx/Materials
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesR.fbx/Materials/lambert1
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesR.fbx/Meshes
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesR.fbx/Meshes/HandBase
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesR.fbx/Meshes/HandBaseWrist
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesR.fbx/Meshes/HandTI
+      - Default 3D Hands 2.lspkg/Meshes/handMeshExtraBonesR.fbx/handMeshExtraBonesR
+      - Default 3D Hands 2.lspkg/Meshes/handMeshL.fbx
+      - Default 3D Hands 2.lspkg/Meshes/handMeshL.fbx/.hidden
+      - Default 3D Hands 2.lspkg/Meshes/handMeshL.fbx/.hidden/Default OBJ.004
+      - Default 3D Hands 2.lspkg/Meshes/handMeshL.fbx/.hidden/white
+      - Default 3D Hands 2.lspkg/Meshes/handMeshL.fbx/Animations
+      - Default 3D Hands 2.lspkg/Meshes/handMeshL.fbx/Animations/BaseLayer
+      - Default 3D Hands 2.lspkg/Meshes/handMeshL.fbx/Materials
+      - Default 3D Hands 2.lspkg/Meshes/handMeshL.fbx/Materials/Default OBJ.004
+      - Default 3D Hands 2.lspkg/Meshes/handMeshL.fbx/Materials/Default OBJ.005
+      - Default 3D Hands 2.lspkg/Meshes/handMeshL.fbx/Materials/handTI2
+      - Default 3D Hands 2.lspkg/Meshes/handMeshL.fbx/Meshes
+      - Default 3D Hands 2.lspkg/Meshes/handMeshL.fbx/Meshes/HandBase
+      - Default 3D Hands 2.lspkg/Meshes/handMeshL.fbx/Meshes/HandBaseWrist
+      - Default 3D Hands 2.lspkg/Meshes/handMeshL.fbx/Meshes/HandTI
+      - Default 3D Hands 2.lspkg/Meshes/handMeshL.fbx/handMeshL
+      - Default 3D Hands 2.lspkg/Meshes/handMeshR.fbx
+      - Default 3D Hands 2.lspkg/Meshes/handMeshR.fbx/.hidden
+      - Default 3D Hands 2.lspkg/Meshes/handMeshR.fbx/.hidden/Default OBJ.004
+      - Default 3D Hands 2.lspkg/Meshes/handMeshR.fbx/.hidden/white
+      - Default 3D Hands 2.lspkg/Meshes/handMeshR.fbx/Animations
+      - Default 3D Hands 2.lspkg/Meshes/handMeshR.fbx/Animations/BaseLayer
+      - Default 3D Hands 2.lspkg/Meshes/handMeshR.fbx/Materials
+      - Default 3D Hands 2.lspkg/Meshes/handMeshR.fbx/Materials/Default OBJ.004
+      - Default 3D Hands 2.lspkg/Meshes/handMeshR.fbx/Materials/Default OBJ.005
+      - Default 3D Hands 2.lspkg/Meshes/handMeshR.fbx/Materials/handTI2
+      - Default 3D Hands 2.lspkg/Meshes/handMeshR.fbx/Meshes
+      - Default 3D Hands 2.lspkg/Meshes/handMeshR.fbx/Meshes/HandBase
+      - Default 3D Hands 2.lspkg/Meshes/handMeshR.fbx/Meshes/HandBaseWrist
+      - Default 3D Hands 2.lspkg/Meshes/handMeshR.fbx/Meshes/HandTI
+      - Default 3D Hands 2.lspkg/Meshes/handMeshR.fbx/handMeshR
+      - Default 3D Hands 2.lspkg/RightTrackingModel.handTracking3D
+      - Default 3D Hands 2.lspkg/Shaders
+      - Default 3D Hands 2.lspkg/Shaders/ShaderDefaultHands.ss_graph
+      - Default 3D Hands 2.lspkg/Shaders/ShaderDefaultHands_green.ss_graph
+      - Default 3D Hands 2.lspkg/Shaders/ShaderHandGlow.ss_graph
+      - Default 3D Hands 2.lspkg/package.native
+      - Default 3D Hands.json
+      - Device Camera Texture.deviceCameraTexture
+      - Echopark.hdr
+      - Echopark.hdr/Diffuse
+      - Echopark.hdr/Specular
+      - Face Mesh.facemesh
+      - Face Mesh.mat
+      - FaceMeshTexture.jpg
+      - Gesture Triggers.json
+      - Gesture Triggers.lspkg
+      - Gesture Triggers.lspkg/Fonts
+      - Gesture Triggers.lspkg/Fonts/Righteous-Regular.ttf
+      - Gesture Triggers.lspkg/Gesture Trigger__PUT_UNDER_MAIN_CAM.prefab
+      - Gesture Triggers.lspkg/Hand Tracking Assets
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Left Hand Tracking Asset.handTracking3D
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Materials
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Materials/Bones
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Materials/Bones/Bone.mat
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Materials/Bones/blue.mat
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Materials/Bones/green.mat
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Materials/Bones/orange.mat
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Materials/Bones/pink.mat
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Materials/Bones/red.mat
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Materials/Bones/yellow.mat
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Materials/Hand Hint PBR 2.mat
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Materials/Hand Hint PBR 3.mat
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Materials/Hand Hint PBR.mat
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Materials/Indicator Line.mat
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Models
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Models/RightHandModel
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Models/RightHandModel/Meshes
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Models/RightHandModel/Meshes/RightHandMesh.mesh
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Right Hand Tracking Asset.handTracking3D
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Scripts
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Scripts/GlobalTrackingHelper.js
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Scripts/GlobalTrackingHelper.json
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Scripts/HandTrackingController.js
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Scripts/HandTrackingController.json
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Scripts/Helpers
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Scripts/Helpers/GetJointDistance.js
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Scripts/Helpers/GetJointDistance.json
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Scripts/Helpers/GetJointDistanceManager.js
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Scripts/Helpers/GetJointDistanceManager.json
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Shaders
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Shaders/Bone.ss_graph
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Shaders/Hand Hint PBR.ss_graph
+      - Gesture Triggers.lspkg/Hand Tracking Assets/Shaders/Indicator Line.ss_graph
+      - Gesture Triggers.lspkg/Models
+      - Gesture Triggers.lspkg/Models/Connector.mesh
+      - Gesture Triggers.lspkg/Models/Plane.mesh
+      - Gesture Triggers.lspkg/Models/Sphere.mesh
+      - Gesture Triggers.lspkg/Scripts
+      - Gesture Triggers.lspkg/Scripts/Behavior.json
+      - Gesture Triggers.lspkg/Scripts/Behavior.lsc
+      - Gesture Triggers.lspkg/Scripts/Behavior.svg
+      - Gesture Triggers.lspkg/Scripts/Tween
+      - Gesture Triggers.lspkg/Scripts/Tween/Tween.json
+      - Gesture Triggers.lspkg/Scripts/Tween/Tween.lsc
+      - Gesture Triggers.lspkg/Scripts/Tween/Tween.svg
+      - Gesture Triggers.lspkg/Scripts/Tween/TweenManager.json
+      - Gesture Triggers.lspkg/Scripts/Tween/TweenManager.lsc
+      - Gesture Triggers.lspkg/Scripts/Tween/TweenManager.svg
+      - Gesture Triggers.lspkg/Scripts/Tween/TweenTypes
+      - Gesture Triggers.lspkg/Scripts/Tween/TweenTypes/TweenAlpha.json
+      - Gesture Triggers.lspkg/Scripts/Tween/TweenTypes/TweenAlpha.lsc
+      - Gesture Triggers.lspkg/Scripts/Tween/TweenTypes/TweenAlpha.svg
+      - Gesture Triggers.lspkg/Scripts/Tween/TweenTypes/TweenValue.json
+      - Gesture Triggers.lspkg/Scripts/Tween/TweenTypes/TweenValue.lsc
+      - Gesture Triggers.lspkg/Scripts/Tween/TweenTypes/TweenValue.svg
+      - Gesture Triggers.lspkg/Sounds
+      - Gesture Triggers.lspkg/Sounds/RainDrop-01.mp3
+      - Gesture Triggers.lspkg/Sounds/RainDrop-03.mp3
+      - Gesture Triggers.lspkg/Sounds/RainDrop-04.mp3
+      - Gesture Triggers.lspkg/Sounds/RainDrop-06.mp3
+      - Gesture Triggers.lspkg/Sounds/RainDrop-07.mp3
+      - Gesture Triggers.lspkg/Sounds/RainDrop-09.mp3
+      - Gesture Triggers.lspkg/Sounds/RainDrop-10.mp3
+      - Gesture Triggers.lspkg/Sounds/RainDrop-11.mp3
+      - Gesture Triggers.lspkg/Sounds/RainDrop-12.mp3
+      - Gesture Triggers.lspkg/Textures
+      - Gesture Triggers.lspkg/Textures/Base.png
+      - Gesture Triggers.lspkg/package.native
+      - Hand Direction.json
+      - Hand Direction.lspkg
+      - Hand Direction.lspkg/Animation
+      - Hand Direction.lspkg/Animation/BIRD_ROOT_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/BIRD_ROOT_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/COG_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/COG_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/FAST_FLIGHT_1_29.animationMixerLayer
+      - Hand Direction.lspkg/Animation/SLOW_FLIGHT_1_39.animationMixerLayer
+      - Hand Direction.lspkg/Animation/back_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/back_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/beak_01_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/beak_01_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/beak_02_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/beak_02_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/chest_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/chest_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/hair_top_01_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/hair_top_01_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/hair_top_02_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/hair_top_02_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/hair_top_03_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/hair_top_03_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/hair_top_04_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/hair_top_04_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/head_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/head_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/head_top_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/head_top_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/hips_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/hips_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/left_Clavicle_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/left_Clavicle_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/left_foot_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/left_foot_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/left_knee_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/left_knee_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/left_leg_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/left_leg_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/left_leg_mid_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/left_leg_mid_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/left_lower_knee_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/left_lower_knee_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/left_toe_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/left_toe_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/left_wing_01_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/left_wing_01_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/left_wing_02_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/left_wing_02_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/left_wing_03_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/left_wing_03_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/left_wing_04_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/left_wing_04_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/left_wing_05_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/left_wing_05_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/right_Clavicle_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/right_Clavicle_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/right_foot_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/right_foot_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/right_knee_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/right_knee_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/right_leg_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/right_leg_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/right_leg_mid_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/right_leg_mid_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/right_lower_knee_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/right_lower_knee_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/right_toe_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/right_toe_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/right_wing_01_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/right_wing_01_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/right_wing_02_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/right_wing_02_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/right_wing_03_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/right_wing_03_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/right_wing_04_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/right_wing_04_JNT_2.animationLayer
+      - Hand Direction.lspkg/Animation/right_wing_05_JNT.animationLayer
+      - Hand Direction.lspkg/Animation/right_wing_05_JNT_2.animationLayer
+      - Hand Direction.lspkg/Fonts
+      - Hand Direction.lspkg/Fonts/jellee_roman.ttf
+      - Hand Direction.lspkg/Hand_Direction__PUT_UNDER_MAIN_CAM.prefab
+      - Hand Direction.lspkg/Materials
+      - Hand Direction.lspkg/Materials/Occluder.mat
+      - Hand Direction.lspkg/Materials/chick_pbr.mat
+      - Hand Direction.lspkg/Meshes
+      - Hand Direction.lspkg/Meshes/LeftHandMesh.mesh
+      - Hand Direction.lspkg/Meshes/RightHandMesh.mesh
+      - Hand Direction.lspkg/Meshes/chick_lo.mesh
+      - Hand Direction.lspkg/Scripts
+      - Hand Direction.lspkg/Scripts/HandDirection.js
+      - Hand Direction.lspkg/Scripts/HandDirection.json
+      - Hand Direction.lspkg/Scripts/HandTracking.js
+      - Hand Direction.lspkg/Scripts/HandTracking.json
+      - Hand Direction.lspkg/Scripts/OnDirectionDetectedLost_EDIT_ME.js
+      - Hand Direction.lspkg/Scripts/OnDirectionDetectedLost_EDIT_ME.json
+      - Hand Direction.lspkg/Scripts/README.js
+      - Hand Direction.lspkg/Scripts/README.json
+      - Hand Direction.lspkg/Shaders
+      - Hand Direction.lspkg/Shaders/Occluder.ss_graph
+      - Hand Direction.lspkg/Shaders/chick_pbr.ss_graph
+      - Hand Direction.lspkg/Textures
+      - Hand Direction.lspkg/Textures/chick_lo_defaultMat1_base.pvr
+      - Hand Direction.lspkg/Textures/chick_lo_defaultMat1_materialParams.pvr
+      - Hand Direction.lspkg/Textures/chick_lo_defaultMat1_normal.pvr
+      - Hand Direction.lspkg/Tracking
+      - Hand Direction.lspkg/Tracking/Left Hand Tracking Asset.handTracking3D
+      - Hand Direction.lspkg/Tracking/Right Hand Tracking Asset.handTracking3D
+      - Hand Direction.lspkg/package.native
+      - Hand Joints Gesture.json
+      - Hand Joints Gesture.lspkg
+      - Hand Joints Gesture.lspkg/Hand Joints Gesture__PUT_IN_ORTHO_CAM.prefab
+      - Hand Joints Gesture.lspkg/Scripts
+      - Hand Joints Gesture.lspkg/Scripts/Behavior.json
+      - Hand Joints Gesture.lspkg/Scripts/Behavior.lsc
+      - Hand Joints Gesture.lspkg/Scripts/Behavior.svg
+      - Hand Joints Gesture.lspkg/Scripts/HandGesturesController.js
+      - Hand Joints Gesture.lspkg/Scripts/HandGesturesController.json
+      - Hand Joints Gesture.lspkg/Scripts/HandTrackingController.js
+      - Hand Joints Gesture.lspkg/Scripts/HandTrackingController.json
+      - Hand Joints Gesture.lspkg/Scripts/HandTrigger.js
+      - Hand Joints Gesture.lspkg/Scripts/HandTrigger.json
+      - Hand Joints Gesture.lspkg/package.native
+      - Hand Tracking Controller.json
+      - Hand Tracking Controller.lspkg
+      - Hand Tracking Controller.lspkg/Hand Tracking Controller__PUT_IN_ORTHO_CAM.prefab
+      - Hand Tracking Controller.lspkg/Materials
+      - Hand Tracking Controller.lspkg/Materials/SpritePreset.lsmat.mat
+      - Hand Tracking Controller.lspkg/Scripts
+      - Hand Tracking Controller.lspkg/Scripts/HandTrackingController.js
+      - Hand Tracking Controller.lspkg/Scripts/HandTrackingController.json
+      - Hand Tracking Controller.lspkg/Shaders
+      - Hand Tracking Controller.lspkg/Shaders/SpritePreset1.lsmat.ss_graph
+      - Hand Tracking Controller.lspkg/Textures
+      - Hand Tracking Controller.lspkg/Textures/Image.png
+      - Hand Tracking Controller.lspkg/Textures/frog_animation
+      - Hand Tracking Controller.lspkg/Textures/frog_animation/frog_animation.t3d
+      - Hand Tracking Controller.lspkg/Textures/frog_animation/frog_animation.t3d/atlas_0.png
+      - Hand Tracking Controller.lspkg/Textures/frog_animation/frog_animation.t3d/frog_animation
+      - Hand Tracking Controller.lspkg/package.native
+      - HandJointDataCollector.js
+      - HandJointDataCollector.json
+      - HandTrigger.js
+      - HandTrigger.json
+      - Internet Module.internetModule
+      - MaterialParams.png
+      - Normal.png
+      - PBR.mat
+      - Render Target.renderTarget
+      - Scene.scene
+      - Skeleton 3D Hands.json
+      - Skeleton 3D Hands.lspkg
+      - Skeleton 3D Hands.lspkg/Materials
+      - Skeleton 3D Hands.lspkg/Materials/Blue.mat
+      - Skeleton 3D Hands.lspkg/Materials/Bone.mat
+      - Skeleton 3D Hands.lspkg/Materials/Cartoony Bones.mat
+      - Skeleton 3D Hands.lspkg/Materials/Green.mat
+      - Skeleton 3D Hands.lspkg/Materials/Orange.mat
+      - Skeleton 3D Hands.lspkg/Materials/Pink.mat
+      - Skeleton 3D Hands.lspkg/Materials/Red.mat
+      - Skeleton 3D Hands.lspkg/Materials/Yellow.mat
+      - Skeleton 3D Hands.lspkg/Meshes
+      - Skeleton 3D Hands.lspkg/Meshes/Connector.mesh
+      - Skeleton 3D Hands.lspkg/Meshes/Cube 2.mesh
+      - Skeleton 3D Hands.lspkg/Meshes/Cube.mesh
+      - Skeleton 3D Hands.lspkg/Meshes/Sphere.mesh
+      - Skeleton 3D Hands.lspkg/Scripts
+      - Skeleton 3D Hands.lspkg/Scripts/HandSkeletonController.js
+      - Skeleton 3D Hands.lspkg/Scripts/HandSkeletonController.json
+      - Skeleton 3D Hands.lspkg/Shaders
+      - Skeleton 3D Hands.lspkg/Shaders/Blue.ss_graph
+      - Skeleton 3D Hands.lspkg/Shaders/Cartoony Bones.ss_graph
+      - Skeleton 3D Hands.lspkg/Skeleton 3D Hands__PUT_UNDER_MAIN_CAM.prefab
+      - Skeleton 3D Hands.lspkg/Textures
+      - Skeleton 3D Hands.lspkg/Textures/Base.png
+      - Skeleton 3D Hands.lspkg/Textures/white.png
+      - Skeleton 3D Hands.lspkg/Tracking
+      - Skeleton 3D Hands.lspkg/Tracking/Left Hand Tracking Asset.handTracking3D
+      - Skeleton 3D Hands.lspkg/Tracking/Right Hand Tracking Asset.handTracking3D
+      - Skeleton 3D Hands.lspkg/package.native
+      - Store Gestures.json
+      - Store Gestures.lspkg
+      - Store Gestures.lspkg/Materials
+      - Store Gestures.lspkg/Materials/Default Hands.mat
+      - Store Gestures.lspkg/Meshes
+      - Store Gestures.lspkg/Meshes/RightHandMesh.mesh
+      - Store Gestures.lspkg/Scripts
+      - Store Gestures.lspkg/Scripts/GestureCopyHelper.js
+      - Store Gestures.lspkg/Scripts/GestureCopyHelper.json
+      - Store Gestures.lspkg/Shaders
+      - Store Gestures.lspkg/Shaders/Default Hands.ss_graph
+      - Store Gestures.lspkg/StoreGesture__PLACE_IN_SCENE.prefab
+      - Store Gestures.lspkg/Tracking
+      - Store Gestures.lspkg/Tracking/Right Hand Tracking Asset.handTracking3D
+      - Store Gestures.lspkg/package.native
+      - face_mesh.ss_graph
+      - pbr.ss_graph
+  options: 4

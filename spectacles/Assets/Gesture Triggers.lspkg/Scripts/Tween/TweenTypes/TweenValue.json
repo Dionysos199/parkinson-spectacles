@@ -1,0 +1,17 @@
+{
+    "assetId": "",
+    "description": "Runs a tween on a generic data type\n\n// ----- USAGE -----\n// Attach this script as a component after the Tween Manager script on either the same scene object or in a lower scene object in the Objects Panel.\n//\n// Obtain the current value of this Tween while it is playing using the Tween Manager\n// -----------------",
+    "filePaths": [
+        "package.native",
+        "TweenValue.js"
+    ],
+    "hash": "b0d4e6fb7b280060002935b786efb13a",
+    "lastModified": 1777030568517,
+    "name": "TweenValue",
+    "tags": [],
+    "uid": "f3b26b9d-e50f-4346-b9bc-4e5baaef43da",
+    "uidExported": "0bcf5be9-f90a-4f8a-96f1-94172137b776",
+    "versionMajor": 1,
+    "versionMinor": 0,
+    "versionPatch": 0
+}

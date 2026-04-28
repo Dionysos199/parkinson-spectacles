@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/144d06df-1590-46e2-9cf3-deb12e10b7f3>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 20
+    patch: 0
+    build: 26040820
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: The Hand Tracking Controller asset lets you create Lenses that add images or animations to a hand found in the camera.
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 0
+  VersionMinor: 1
+  VersionPatch: 0
+  UpdateCheckpoint: 96
+  ExportUid: b1b23307-44e1-4d29-8555-6f0caabda52d
+  ComponentUid: 3dafe853-4084-41d8-b80d-36525444d853
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

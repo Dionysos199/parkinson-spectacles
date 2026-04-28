@@ -1,0 +1,17 @@
+- !<AnimationMixerLayer/a267b89d-d0ee-4a74-88b4-da22e435572b>
+  PackagePath: ""
+  Layer: FAST_FLIGHT_1_29
+  Name: FAST_FLIGHT_1_29
+  Weight: 1.000000
+  SpeedRatio: 1.000000
+  From: 0.000000
+  To: 1.000000
+  Offset: 0.000000
+  FPS: 30.000000
+  NumCycles: -1
+  Reversed: false
+  Disabled: false
+  PostInfinity: Cycle
+  BlendMode: Default
+  ScaleMode: Multiply
+  RangeType: TimeInSeconds

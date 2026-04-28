@@ -1,0 +1,17 @@
+{
+    "assetId": "",
+    "description": "Runs a tween on a Lens Studio object's alpha using TweenJS\n\n// ----- USAGE -----\n// Attach this script as a component after the Tween Manager script on either the same scene object or in a lower scene object in the Objects Panel.\n//\n// Assign a scene object that contains a non-Default Material to \"Scene Object\" on this script.\n// -----------------\n",
+    "filePaths": [
+        "package.native",
+        "TweenAlpha.js"
+    ],
+    "hash": "a23936c3ed09a63acb47f0ca71759a31",
+    "lastModified": 1777030568520,
+    "name": "TweenAlpha",
+    "tags": [],
+    "uid": "2337c7d1-b729-4014-b9ea-b6a83569afdf",
+    "uidExported": "44bd9ad4-40c1-4023-800b-bbdf784358d0",
+    "versionMajor": 1,
+    "versionMinor": 0,
+    "versionPatch": 0
+}
