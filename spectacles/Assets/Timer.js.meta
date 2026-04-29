@@ -26,12 +26,7 @@
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
-    greenHand: false
-    handTriggerObject: false
     holdDuration: false
-    recordingCountdownText: false
-    recordingTimer: false
-    redHand: false
     timerText: false
     triggerName: false
   ScriptTypesHidden:
@@ -45,12 +40,7 @@
   DefaultScriptInputs:
     - holdDuration: !<float> 2.000000
       triggerName: Recording_Start
-      recordingTimer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       timerText: !<reference.Text> 00000000-0000-0000-0000-000000000000
-      handTriggerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      redHand: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      greenHand: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      recordingCountdownText: !<reference.Text> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

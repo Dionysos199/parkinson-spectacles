@@ -4,7 +4,48 @@
     - !<own> a42bb172-8fbe-4b8d-aee6-470f828b697a
 - !<PassInfo/a42bb172-8fbe-4b8d-aee6-470f828b697a>
   CachedProperties:
-    []
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_GSplatRotation_N004:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    - Port_GSplatScale_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_Normal_N006:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_PrevWorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
   DepthWrite: true
   DepthTest: true
   DepthFunction: LessEqual
@@ -60,11 +101,11 @@
       value: {x: 0.268421, y: 0.627832, z: 0.917998, w: 1.000000}
     Port_Value_N014:
       typeIdx: 5
-      value: {x: 0.705882, y: 0.705882, z: 0.705882, w: 1.000000}
+      value: {x: 0.705882, y: 0.000000, z: 0.000000, w: 1.000000}
     Port_Value_N016:
       typeIdx: 5
       value: {x: 0.156832, y: 0.937530, z: 0.635859, w: 1.000000}
     PreviewEnabled:
       typeIdx: 0
       value: 0
-  Pass: !<reference> efdb265c-ae5e-4a2f-b17c-dfeef1ca2116
+  Pass: !<reference> b7ef1765-4af3-4bf9-a5fa-3fe36f30d27f
