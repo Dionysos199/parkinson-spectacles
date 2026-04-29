@@ -185,3 +185,14 @@ src/config/credentials.yml.enc
 spectacles/Cache/
 spectacles/**/*.lock
 spectacles/PluginsUserPreferences/
+
+# Local data and outputs
+recordings/
+results/
+
+# IDE and tooling
+.vscode/
+.claude/
+
+# Large model/task binary
+src/lib/hand_predictor/utils/saved_models/hand_landmarker.task

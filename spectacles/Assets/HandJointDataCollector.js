@@ -101,4 +101,4 @@ updateEvent.bind(function() {
         }
     }
     frames.push(frame);
-});
+}); 

@@ -515,8 +515,10 @@ def hand_parameters(data_input: pd.DataFrame, hand_pos: int = 1):
     d = moving_average(d, 5)  # average for each 5 frames (0.083s under 60fs)
 
     # short-time Fourier transform
+    _nperseg = min(150, len(d))
+    _noverlap = min(145, _nperseg - 1)
     t, f, _, max_freq, max_intensity = peakFreqInte_bySTFT(
-        d, fs=60, nperseg=150, noverlap=145,
+        d, fs=60, nperseg=_nperseg, noverlap=_noverlap,
         f_lower_cutoff=0.5, f_upper_cutoff=10
     )
     IF_value = max_intensity * max_freq
