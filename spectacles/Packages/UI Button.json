@@ -1,0 +1,30 @@
+{
+    "assetId": "4X5q6NhW2Y8JfkQmYmqOdX",
+    "description": "UI Button - Trigger events and behaviors by switching on and off.\n\nAdd callback function to event when button was pressed down\n// script.onPressDown.add(callback)\n//\n// Remove callback function from event when button was pressed down\n// script.onPressDown.remove(callback)\n//\n// Add callback function to event when button was pressed up\n// script.onPressUp.add(callback)\n//\n// Remove callback function from  event when button was pressed up\n// script.onPressUp.remove(callback)\n//\n// Add callback function to event when button is pressed\n// script.onPress.add(callback)\n//\n// Remove callback function from event\n// script.onPress.remove(callback)\n\n// Manually enable interactable\n// script.enableInteractable()\n//\n// Manually disable interactable\n// script.disableInteractable()\n//\n// True if interactable\n// script.isInteractable()\n//\n// True if pressed\n// script.isPressed()\n//\n// Enable touch events\n// script.enableTouchEvents()\n//\n// Disable touch events\n// script.disableTouchEvents()\n//\n// Manually trigger Press Down (call only when touch events are disabled)\n// script.pressDown()\n//\n// Manually trigger Press Up (call only when touch events are disabled)\n// script.pressUp()\n//\n// Change this button's animation type to a newType (\"Bounce\", \"Squish\", \"Tween\", \"AnchorPosition\", \"OffsetPosition\", \"Rotation\", or \"Scale\")\n// script.changeAnimationType(newType)\n//\n// Set the value of one of this UI Button’s transition types (\"Color\", \"Texture\", \"Tween\", \"AnchorPosition\", \"OffsetPosition\", \"Rotation\", or \"Scale\") for when it switches to a different state (\"normal\", \"pressed\", or \"disabled\")\n// script.changeStateValue(state, type, newValue)\n//\n// Get the current color of the Button's Background\n// script.getColor()\n//\n// Get the current texture of the Button's Background\n// script.getTexture()\n//\n// Get the text component of this button\n// script.getTextComponent()\n//",
+    "filePaths": [
+        "Modules/DestructionHelper.js",
+        "Modules/EventModule.js",
+        "Modules/UIWidgetsModule.js",
+        "package.native",
+        "UI Button/Default Prefabs/Button Background.prefab",
+        "UI Button/Default Prefabs/Button Foreground.prefab",
+        "UI Button/Default Prefabs/Button Text.prefab",
+        "UI Button/Fonts/Poppins-Medium.ttf",
+        "UI Button/Materials/Button Default.mat",
+        "UI Button/Materials/SpritePreset.lsmat.mat",
+        "UI Button/Shaders/Button Default.ss_graph",
+        "UI Button/Shaders/Image.ss_graph",
+        "UI Button/Textures/Button_10X.png",
+        "UI Button/Textures/Image.png",
+        "UI Button/UI Button.js"
+    ],
+    "hash": "af1836a641808853b799c07a56c95719",
+    "lastModified": 1777461507671,
+    "name": "UI Button",
+    "tags": [],
+    "uid": "0005ec0c-8f52-724f-0000-00000000b2fd",
+    "uidExported": "2c16ee59-9332-4daf-97a6-266a418632d3",
+    "versionMajor": 11,
+    "versionMinor": 0,
+    "versionPatch": 0
+}

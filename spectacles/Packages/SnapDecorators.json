@@ -1,0 +1,23 @@
+{
+    "assetId": "7zO8BENXbqVfihGvfh8Fy2",
+    "description": "A powerful TypeScript decorator library for Spectacles development that simplifies component lifecycle management, dependency injection, and memoization. SnapDecorators leverages modern JavaScript decorator syntax to eliminate boilerplate code, automatically wire up event handlers, inject component dependencies, and optimize getter performance. This package transforms verbose Lens Studio component patterns into clean, declarative code using the Stage 3 TC39 decorator proposal, making your scripts more readable, maintainable, and less error-prone",
+    "filePaths": [
+        "assert.ts",
+        "debug.ts",
+        "decorators.ts",
+        "Examples.ts",
+        "Examples__PLACE_IN_SCENE.prefab",
+        "guards.ts",
+        "package.native",
+        "README.md"
+    ],
+    "hash": "15fc0830b168afa9b71f145fbafd5e26",
+    "lastModified": 1777036973675,
+    "name": "SnapDecorators",
+    "tags": [],
+    "uid": "dc4c33c9-7391-46fc-8b73-8687edf8fbfd",
+    "uidExported": "1d86bde5-4e69-4494-8b59-e20e296dbde3",
+    "versionMajor": 1,
+    "versionMinor": 0,
+    "versionPatch": 0
+}
