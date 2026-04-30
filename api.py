@@ -84,17 +84,27 @@ def _upsample(df: pd.DataFrame, target: int = 200) -> pd.DataFrame:
     return pd.DataFrame(new_data)
 
 
+def _safe(val, decimals: int = 2) -> float:
+    try:
+        v = float(val)
+        if v != v or abs(v) == float("inf"):   # NaN / Inf check
+            return 0.0
+        return round(v, decimals)
+    except (TypeError, ValueError):
+        return 0.0
+
+
 def _build_response(updrs_df: pd.DataFrame, results: dict, error_frame_ratio: float) -> dict:
     overall = int(updrs_df["predict_overall"].iloc[0])
     peaks_count = len((results.get("peaks") or {}).get("time") or [])
     return {
         "updrs_score": overall,
         "severity": _SEVERITY.get(overall, "Unknown"),
-        "frequency": round(float(results.get("freq-mean", 0)), 2),
-        "intensity": round(float(results.get("intensity-mean", 0)), 3),
-        "fi_value": round(float(results.get("inte-freq-mean", 0)), 2),
+        "frequency": _safe(results.get("freq-mean", 0), 2),
+        "intensity": _safe(results.get("intensity-mean", 0), 3),
+        "fi_value": _safe(results.get("inte-freq-mean", 0), 2),
         "peaks": peaks_count,
-        "detection_rate": round((1.0 - error_frame_ratio) * 100, 1),
+        "detection_rate": _safe((1.0 - error_frame_ratio) * 100, 1),
     }
 
 
